@@ -206,7 +206,7 @@ if "!choice!"=="?5" (
 	goto reaskoptionscreen
 )
 :: Character solid archive
-if exist "server\characters\characters.zip" (
+if exist "server\characters" (
 	if "!choice!"=="6" goto extractchars
 	if "!choice!"=="?6" (
 		echo When first getting JewmberAnimate, all non-stock characters are put into a single zip file.
