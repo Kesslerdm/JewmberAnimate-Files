@@ -1,4 +1,4 @@
-title Wrapper: Offline Import Script
+title Jewmber Animate Import Script
 :: Helps to make importing files using the theme editing workaround easier
 :: Author: benson#0411
 :: License: MIT
@@ -19,7 +19,7 @@ popd utilities
 if !errorlevel! NEQ 0 goto error_location
 goto noerror_location
 :error_location
-echo Doesn't seem like this script is in Wrapper: Offline's utilities folder.
+echo Doesn't seem like this script is in Jewmber Animate's utilities folder.
 goto end
 :noerror_location
 
