@@ -1,6 +1,6 @@
 title Jewmber Animate Import Script
 :: Helps to make importing files using the theme editing workaround easier
-:: Author: benson#0411
+:: Author: Jewmberzoom#0552
 :: License: MIT
 
 :: Initialize (stop command spam, clean screen, make variables work, set to UTF-8)
