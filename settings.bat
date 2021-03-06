@@ -428,7 +428,7 @@ goto optionscreen
 :: Extract Characters ::
 ::::::::::::::::::::::::
 :extractchars
-if exist "server\characters\characters.zip" (
+if exist "server\characters" (
 	echo Are you sure you wish to enable original LVM character IDs?
 	echo This will take a while, depending on your computer.
 	echo Characters will still be compressed, just put into separate usable files.
@@ -448,8 +448,8 @@ if exist "server\characters\characters.zip" (
 	echo Please do not close this window!
 	echo It's likely not frozen, it just takes a while.
 	echo:
-	utilities\7za.exe e server\characters\characters.zip -y -o server\characters
-	del /q server\characters\characters.zip
+	utilities\7za.exe e server\characters -y -o server\characters
+	del /q server\characters
 )
 goto optionscreen
 
