@@ -1,2 +1,2 @@
-# JewmberAnimate-Files
-files for jewmber animate for windows to extract better
+use winrar to extract
+here
